@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import tensorflow as tf
 import joblib
 
-model = tf.keras.models.load_model("model.pkl") 
+model = tf.keras.models.load_model("model.keras") 
 try:
     vectorizer = joblib.load("vectorizer.pkl")
     print("Vectorizer loaded successfully!")
