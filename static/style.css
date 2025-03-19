@@ -1,0 +1,107 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.postimg.cc/bN59Zz9s/fondo.jpg');  /* Définir l'image de fond */
+    background-size: cover;  /* Pour couvrir tout l'écran */
+    background-position: center center;  /* Centrer l'image */
+    background-attachment: fixed;  /* L'image ne défile pas avec la page */
+    color: #333;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Title */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #7b7b7b;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+/* Form */
+form {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    width: 80%;
+    max-width: 500px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #c61212;
+}
+
+button {
+    width: 80%;
+    max-width: 500px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #e2077f;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6d0740;
+}
+
+/* Prediction message */
+h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #c4c4c4;
+    font-weight: bold;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 10px auto;
+    background-color: #007bff;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #666;
+}
+
+/* Harmful and Non-Harmful messages */
+h2 {
+    color: #333;
+}
+
+h2.success {
+    color: #28a745;  /* Green for non-harmful */
+}
+
+h2.error {
+    color: #dc3545;  /* Red for harmful */
+}
