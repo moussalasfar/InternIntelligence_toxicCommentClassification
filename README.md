@@ -23,10 +23,6 @@ git clone https://github.com/moussalasfar/InternIntelligence_toxicCommentClassif
 cd InternIntelligence_toxicCommentClassification
 ```
 
-## 🛠 Future Improvements
-- Fine-tune with **BERT** for better contextual understanding.
-- Implement **Hugging Face Transformers** for improved efficiency.
-
 ## 👨‍💻 Author
 **moussa Lasfar**  
 [LinkedIn](https://www.linkedin.com/in/moussa-lasfar-423793196/)
